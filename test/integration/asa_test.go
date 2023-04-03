@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 /**
@@ -20,7 +21,7 @@ package integration
 
 import (
 	"fmt"
-	"github.com/gungoren/apple-search-ads-go/asa"
+	"github.com/rhinonet/apple-search-ads-go/asa"
 	"os"
 	"time"
 )

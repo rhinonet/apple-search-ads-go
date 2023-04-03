@@ -1,4 +1,4 @@
-module github.com/gungoren/apple-search-ads-go
+module github.com/rhinonet/apple-search-ads-go
 
 go 1.16
 

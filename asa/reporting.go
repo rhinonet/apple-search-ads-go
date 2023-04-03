@@ -224,7 +224,7 @@ type ExtendedSpendRow struct {
 	ReDownloads    int64   `json:"redownloads,omitempty"`
 	Taps           int64   `json:"taps,omitempty"`
 	Ttr            float64 `json:"ttr,omitempty"`
-	Date           Date    `json:"date,omitempty"`
+	Date           string  `json:"date,omitempty"`
 }
 
 // InsightsObject is a parent object for bid recommendations

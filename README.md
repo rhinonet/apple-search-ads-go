@@ -1,9 +1,9 @@
 # apple-search-ads-go
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/gungoren/apple-search-ads-go/asa)](https://pkg.go.dev/github.com/gungoren/apple-search-ads-go/asa)
-[![Continuous Integration](https://github.com/gungoren/apple-search-ads-go/workflows/Run%20Tests/badge.svg)](https://github.com/gungoren/apple-search-ads-go/actions?query=workflow%253A%2522Run+Tests%2522)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/rhinonet/apple-search-ads-go/asa)](https://pkg.go.dev/github.com/rhinonet/apple-search-ads-go/asa)
+[![Continuous Integration](https://github.com/rhinonet/apple-search-ads-go/workflows/Run%20Tests/badge.svg)](https://github.com/rhinonet/apple-search-ads-go/actions?query=workflow%253A%2522Run+Tests%2522)
 [![codecov](https://codecov.io/gh/gungoren/apple-search-ads-go/branch/master/graph/badge.svg?token=NGXNS17SV2)](https://codecov.io/gh/gungoren/apple-search-ads-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gungoren/apple-search-ads-go)](https://goreportcard.com/report/github.com/gungoren/apple-search-ads-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rhinonet/apple-search-ads-go)](https://goreportcard.com/report/github.com/rhinonet/apple-search-ads-go)
 
 apple-search-ads-go is a Go client library for accessing Apple's [Apple Search Ads API](https://developer.apple.com/documentation/apple_search_ads).
 
@@ -14,7 +14,7 @@ This library is heavily inspired by [asc-go](https://github.com/cidertool/asc-go
 This project uses Go Modules. It requires **Go 1.16 or higher**.
 
 ```go
-import "github.com/gungoren/apple-search-ads-go/asa"
+import "github.com/rhinonet/apple-search-ads-go/asa"
 ```
 
 Construct a new Apple Search Ads client, then use the various services on the client to access different parts of the Apple Search Ads API. For example:
@@ -32,7 +32,7 @@ apps, _, err := client.App.SearchApps(context.Background(), params)
 
 The client is divided into logical chunks closely corresponding to the layout and structure of Apple's own documentation at <https://developer.apple.com/documentation/apple_search_ads>.
 
-For more sample code snippets, head over to the [examples](https://github.com/gungoren/apple-search-ads-go/tree/master/examples) directory.
+For more sample code snippets, head over to the [examples](https://github.com/rhinonet/apple-search-ads-go/tree/master/examples) directory.
 
 ### Authentication
 
@@ -43,7 +43,7 @@ import (
     "os"
     "time"
 
-    "github.com/gungoren/apple-search-ads-go/asa"
+    "github.com/rhinonet/apple-search-ads-go/asa"
 )
 
 func main() {
@@ -116,7 +116,7 @@ for {
 }
 ```
 
-For complete usage of apple-search-ads-go, see the full [package docs](https://pkg.go.dev/github.com/gungoren/apple-search-ads-go/asa).
+For complete usage of apple-search-ads-go, see the full [package docs](https://pkg.go.dev/github.com/rhinonet/apple-search-ads-go/asa).
 
 ## Contributing
 

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/gungoren/apple-search-ads-go/asa"
+	"github.com/rhinonet/apple-search-ads-go/asa"
 	"io"
 	"log"
 	"os"
